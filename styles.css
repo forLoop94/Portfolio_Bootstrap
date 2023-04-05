@@ -1,0 +1,100 @@
+.about-me {
+  background-color: #262626;
+  padding-top: 10%;
+}
+
+.about-me-image {
+  width: 10%;
+  height: 30%;
+}
+
+.crete-round {
+  font-family: 'Crete Round', sans-serif;
+}
+
+.headline-section-header, .about-me-header {
+  font-size: 4rem;
+  color: #F55800;
+}
+
+.about-me-text-section {
+  line-height: 40px;
+  font-size: 1.2rem;
+}
+
+.proficiencies {
+  margin: 0px 7rem;
+}
+
+.about-me-section-break {
+  color: rgb(221, 220, 218);
+  z-index: -1;
+  padding: 3rem 7rem;
+}
+
+.proficiencies ul{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.proficiencies ul li{
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 1rem 0px;
+}
+
+.language::before {
+  content: "\25C6";
+  color: #ff6b00;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block;
+  width: 0.7em;
+  margin-left: -1em;
+}
+
+.frameworks::before {
+  content: "\25AA";
+  color: #ff6b00;
+  font-weight: bold;
+  font-size: 50px;
+  display: inline-block;
+  width: 0.7em;
+  margin-left: -1em;
+}
+
+.skills::before {
+  content: "\2022";
+  color: #ff6b00;
+  font-weight: bold;
+  font-size: 40px;
+  display: inline-block;
+  width: 0.7em;
+  margin-left: -1em;
+}
+
+.main-form {
+  padding: 7rem;
+}
+
+.bold-text {
+  font-size: 2rem;
+}
+
+.short-para{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+} 
+
+.btn-type-a {
+  background-color: #ff6b00;
+  border-radius: 0px;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.inter {
+  font-family: Inter, sans-serif;
+}
